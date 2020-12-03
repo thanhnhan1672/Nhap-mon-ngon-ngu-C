@@ -10,8 +10,8 @@ const double PI = 3.14;
 // tinh chu vi va dien cua hinh tron
 CV = 2 * R * PI;
 DT = R * R * PI;
-printf("CV = 2 * R * PI = %0.2f\n",CV);
-printf("DT = R * R * PI = %0.3f\n",DT);
+printf("CV = 2 * R * PI = %f\n",CV);
+printf("DT = R * R * PI = f\n",DT);
 //Hienthi R, CV, DT theo 2 hàng, 3 cot
 printf("R   |  CV  |   DT\n");
 printf("1.5 | CV = 2 * R *PI | DT = R * R * PI");
