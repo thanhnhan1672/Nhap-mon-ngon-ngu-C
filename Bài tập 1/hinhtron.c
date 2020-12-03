@@ -11,7 +11,7 @@ const double PI = 3.14;
 CV = 2 * R * PI;
 DT = R * R * PI;
 printf("CV = 2 * R * PI = %f\n",CV);
-printf("DT = R * R * PI = f\n",DT);
+printf("DT = R * R * PI = %f\n",DT);
 //Hienthi R, CV, DT theo 2 hàng, 3 cot
 printf("R   |  CV  |   DT\n");
 printf("1.5 | CV = 2 * R *PI | DT = R * R * PI");
