@@ -1,26 +1,26 @@
 #include <stdio.h>
 
 int main(){	
-		// khai bao bien a
-	int a ;
-		// nhap bien a tren ban phim
-		printf (" nhap a tren ban phim :",a);
+		// khai bao bien n
+	int n ;
+		// nhap bien n tren ban phim
+		printf (" nhap n tren ban phim :",n);
 		
-		// kiem tra a la chan hay le
-	scanf("%d" , &a);
+		// kiem tra n la chan hay le
+	scanf("%d" , &n);
 	
-		// khai bao bien a bang khong
-	 if(a  == 0) {
-	printf("%d bang khong",a );
+		// khai bao bien n bang khong
+	 if(n  == 0) {
+	printf("%d bang khong",n );
 } 
-		// neu a chia het cho 2 la so chan
-else if(a % 2 == 0) {
-	printf("%d la so chan", a);	
+		// neu n chia het cho 2 la so chan
+else if(n % 2 == 0) {
+	printf("%d la so chan", n);	
 }
 else{
  
- 		// neu a khong chia het cho 2 ,la so le
-	printf("%d la so le", a);
+ 		// neu n khong chia het cho 2 ,la so le
+	printf("%d la so le", n);
 }
 	
 return 0;
