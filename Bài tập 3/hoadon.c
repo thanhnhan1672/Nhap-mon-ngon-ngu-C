@@ -13,9 +13,9 @@ int dongia, soluong, thanhtien;
 			// cong thuc tinh thanh tien
 thanhtien = dongia * soluong;
 
-			// so luong neu mua > hoac = 5 se giam 25%
-	if (soluong >= 5){
-  		printf("so tien can phai thanh toan la %d", thanhtien *75/100);
+			// so luong neu mua > hoac = 5  va don gia >= 500 se giam 50%
+	if (soluong >= 5 , dongia >= 500){
+  		printf("so tien can phai thanh toan la %d", thanhtien *50/100);
 
 }else{
 	
