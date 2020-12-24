@@ -1,1 +1,4 @@
-
+for vong lap 
+++ cho gia tri dc gan them 1 don vi
+while vong lap can dieu kien
+switch dung de thiet lap cac dieu kien re nhanh
