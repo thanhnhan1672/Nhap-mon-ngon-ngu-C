@@ -1,18 +1,11 @@
-#include <stdio.h>
-int main()
-{
-	int a, n; // khai bao bien
-	do{
-		// nhap vao bang cuu chuong muon biet
-	printf("Nhap bang cuu chuong: "); 
-	
-	scanf("%d", &n);	
-	}
-		// while kiem tra dieu kien
-	while(n<1 || n>9); 
-		//  neu a >=1 , a<10 thi chuong trinh se chay 
-		// cho gia tri bat dau tu >= 1 den <11 voi gia tri tang dan
-	for(a>=1; a<11; a++)
-		printf("%d x %d = %d\n", n, a, a*n);
-	return 0;
+#include<stdio.h>
+int main () {
+    printf (" === in bang cuu chuong ra man hinh ===\n"); 
+    for (int a = 2; a < 10; a++) { 
+        printf ("        -- bang cuu chuong %d --\n", a);
+        for (int n = 1; n <= 10; n++) {    
+        printf ("               %d x %d = %d\n", a, n, a * n);       
+    }
+    }
+    return 0;
 }
