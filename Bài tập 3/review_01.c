@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main (){
-    printf("nhap n tu ban phim = ");
+  
     int n;
     scanf ("%d", &n);
     if (n > 9){
