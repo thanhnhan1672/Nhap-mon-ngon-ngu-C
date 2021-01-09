@@ -19,8 +19,6 @@ int main ()
 // hang 1: 1 sao 2 khoang trang
 // hang 2 : 3 sao khong khoang trang
 
-//h = 1 1:1 hang
-// hang 1 : 1 sao
 
 
     return 0;
