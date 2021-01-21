@@ -30,7 +30,7 @@ int main()
     printf("\nCac so chan trong mang : ");
     int demchan;
     for( i = 0; i < n; i++) {
-        if(a[i] % 2 == 0) {
+        if(a[i] % 2 == 0 && a[i] !=0) {
             printf("%d ", a[i]);
             demchan++;
         }
@@ -39,7 +39,7 @@ int main()
 int demle;
     printf("\nCac so le trong mang : ");
     for( i = 0; i < n; i++) {
-        if(a[i] % 2 == 1) {
+        if(a[i] % 2 == 1 && a[i] !=0) {
             printf("%d ", a[i]);
             demle++;
         }
@@ -48,7 +48,7 @@ int demle;
 int dem0;
     printf("\nCac so 0 trong mang la: ");
     for( i = 0; i < n; i++) {
-        if(a[i] == 0) {
+        if(a[i] == 0 && a[i] !=0) {
             printf("%d ", a[i]);
             dem0++;
         }
