@@ -1,0 +1,10 @@
+Kiemtra1: 
+Kết quả là 3252.Vì  hàm main có printf đầu tiên có chứa giá trị x và x ở hàm main là 3 ,nên chương trình xuất ra 3 trước .Tiếp theo printf  của main có chứa Y.
+Y ở đây được gọi và gán giá trị là 2.Khi xuất ra màn hình sẽ là 2
+Tiếp theo là tới hàm void ham_a ,printf ở đây có chứa giá trị x mà x ở đây được gán giá trị là 5 nên khi chạy nó sẽ xuất ra màn hình là 5.
+Printf cuối cùng có chứa giá trị y và y được gán giá trị là 2 .Nên khi được xuất ra màn hình sẽ là 2 
+Nên khi xuất chương trình ra màn hình chúng ta sẽ có dòng số 3252.
+
+
+Kiểm tra 2
+
